@@ -1,4 +1,3 @@
-
 -- Problem 1: 
 median :: Integer -> Integer -> Integer -> Integer
 
@@ -14,11 +13,11 @@ fib n | n < 0 = 0
       | n == 0 = 1
       | n == 1 = 1
       | otherwise = fib (n - 1) + fib (n - 2)
-main = putStrLn $ show $ fib (4)
+--main = putStrLn $ show $ fib (4)
 
 -- Problem 3: 
 fibs :: Integer -> [Integer]
 
-fibs n = map fib [0..(n)]
+fibs n = map fib [0..(n-1)]
 
---main = putStrLn $ show $  fibs (0)
+main = putStrLn $ show $  fibs (6)
