@@ -1,1 +1,1 @@
-# Haskell-Assignments
+# Haskell
