@@ -1,2 +1,3 @@
 # Haskell
+Assorted haskell functions
 
